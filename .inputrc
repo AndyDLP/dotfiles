@@ -1,0 +1,8 @@
+$include  /etc/inputrc
+
+set vi-ins-mode-string "INSERT "
+set vi-cmd-mode-string "COMMAND "
+set show-mode-in-prompt on
+
+set bind-tty-special-chars Off
+C-w: backward-kill-word
